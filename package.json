@@ -2,6 +2,7 @@
   "name": "react-portfolio",
   "version": "1.0.0",
   "description": "My Portfolio",
+  "homepage": "https://Donnie46.github.io/React-Portfolio",
   "main": "index.js",
   "dependencies": {
     "js-tokens": "^4.0.0",
