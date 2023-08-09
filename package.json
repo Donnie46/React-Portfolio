@@ -1,26 +1,38 @@
 {
-  "name": "react-portfolio",
-  "version": "1.0.0",
-  "description": "My Portfolio",
-  "homepage": "https://Donnie46.github.io/React-Portfolio",
-  "main": "index.js",
+  "name": "my",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "express": "^4.18.2",
-    "js-tokens": "^4.0.0",
-    "loose-envify": "^1.4.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router": "^6.14.2",
-    "react-router-dom": "^6.14.2",
-    "scheduler": "^0.23.0"
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "React-Portfolio"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "author": "D. Roberts",
-  "license": "ISC"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
